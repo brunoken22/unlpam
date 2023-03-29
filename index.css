@@ -1,0 +1,164 @@
+
+nav div span{
+   color: #fff !important;
+}
+
+.logo{
+   display:flex;
+   justify-content:start;
+   align-items:center;
+   position: relative ;
+   animation-name: example;
+   animation-duration: 8s;
+   height: 20px;
+}
+.logo h3{
+   font-family:"Poppins";
+   padding:0 0 0 10px;
+   margin: 0;
+   font-size: 1rem;
+}
+.logo span{
+   padding-bottom: 15px;
+   font-size:2rem;
+   font-weight:bold;
+   color:#000 !important;
+
+   
+}
+
+.welcome{
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   justify-content: center;
+   padding-top: 80px;
+   column-gap:80px ;
+   align-items: center;
+   
+}
+.welcome figure{
+   margin: 0;
+}
+.row{
+   margin-top: 16px;
+}
+.row .col{
+   display: flex;
+   justify-content: center;
+}
+.description{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   max-width: 500px;
+}
+
+.welcome h2{
+   font-size: 4rem;
+   margin-bottom: 30px;
+
+   margin-bottom: 30px;
+}
+.welcome h4{
+   margin-bottom: 30px;
+   font-weight: 100;
+   font-size: 1.2rem;
+
+}
+
+.about{
+   background-color: #000;
+   text-align: center;
+   color: #fff;
+   margin-top: 20px;
+   margin-bottom:20px ;
+   padding-top: 10px;
+}
+.about h4{
+   font-weight: 400;
+   font-size: 1.2rem;
+   margin-top: 30px;
+}
+
+.skill{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.skill h2{
+   padding-bottom: 20px;
+   font-weight: bold;
+}
+.skill div{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-top: 20px;
+   row-gap: 30px;
+   column-gap: 20px;
+ 
+}
+.skill div div{
+   animation: skill;
+   animation-duration: 2s;
+}
+.skill div img{
+   width: 150px;
+}
+
+
+footer{
+   text-align: center;
+}
+footer p{
+   background-color: #000;
+   color: #fff;
+   margin: 0;
+   padding: 0;
+   height: 50px;
+}
+/* Bootstrap */
+.navbar-collapse{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+@media screen and (max-width:575px) {
+   .navbar-brand{
+      display: none;
+
+   }
+   .navbar-collapse{
+      justify-content: center;
+
+   }
+
+   .present{
+      flex-direction: column;
+   }
+
+   .about{
+      flex-direction: column;
+   }
+   .about .me-5{
+      margin: 0 !important;
+      margin-bottom: 15px !important;
+   }
+}
+@keyframes example {
+   0%   {color:#000; left:-250px; top:0px;}
+   25%  {color:rgb(32, 32, 32); left:0px; top:0px;}
+}
+@keyframes skill {
+   0%   {opacity: 0.2;}
+   25%  {opacity: 0.5;}
+   50%  {opacity: 0.7;}
+   100% {opacity: 1;}
+}
+
+/* Contacto */
+
+.form{
+}

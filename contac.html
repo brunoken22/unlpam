@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Experiencia</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+   crossorigin="anonymous"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="index.css">
+ <link rel="stylesheet" href="contac.css">
+ <script defer src="./alert.js"></script>
+
+</head>
+<body>
+  <header>  
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="" style="width:100%">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">
+            <div class="logo">
+              <span>&lt/&gt</span>
+              <h3> Bruno ken</h3>
+            </div>
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./expe.html">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contac.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  </header>
+  <div class="contacto">
+    <div class="contact-me">
+      <div class="datos-me">
+        <a href="tel:1161204047">Tel:<br>1161204047</a>      
+        <a href="mailto:bruno_am_22@hotmail.com">Email: bruno_am_22@hotmail.com</a>
+      </div>
+      <div class="ubicacion">
+        <h3>Ubicación</h3>
+        <p>Buenos Aires, Argentina</p>
+      </div>
+    </div>
+    <form action="#" class="container-sm form">
+      <div class=" mb-3">
+        <label for="Nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" placeholder="Bruno Ken" required>
+      </div>
+      <div class=" mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="Email" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="Mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="Mensaje" rows="3" required></textarea>
+      </div>
+      <div id="liveAlertPlaceholder"></div>
+      <div class="btn">
+        <button type="button" class="btn btn-primary" id="liveAlertBtn">Enviar</button> 
+      </div>
+    </form>
+  </div>
+  <footer>  
+    <p>Hecho por Bruno Ken Alvarez Marca</p>
+  </footer>  
+</body>
+</html>
